@@ -1,0 +1,4 @@
+package com.producerConsumer.messaging;
+
+public class PrometheusConfig {
+}
