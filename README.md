@@ -96,30 +96,7 @@ This project demonstrates a real-time event flow system using a **React client**
    npx create-react-app kafka-client
    cd kafka-client
    ```
-
-2. In `App.js`:
-   ```jsx
-   function App() {
-     const sendEvent = async () => {
-       await fetch("http://localhost:8080/producer/event", {
-         method: "POST",
-         headers: { "Content-Type": "application/json" },
-         body: JSON.stringify("User clicked!")
-       });
-     };
-
-     return (
-       <div>
-         <h2>Send Event to Kafka</h2>
-         <button onClick={sendEvent}>Send Event</button>
-       </div>
-     );
-   }
-
-   export default App;
-   ```
-
-3. Start the client:
+2. Start the client:
    ```bash
    npm start
    ```
