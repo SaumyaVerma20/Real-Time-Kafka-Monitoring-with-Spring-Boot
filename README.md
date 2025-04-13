@@ -4,6 +4,7 @@
 This project demonstrates a real-time event flow system using a **React client** to send events to a **Spring Boot Kafka producer**, which publishes messages to a Kafka topic. A **Kafka consumer** receives and processes the events, tracking them with **Prometheus metrics**. These metrics are visualized in **Grafana dashboards**, allowing for real-time monitoring of Kafka event flow.
 
 ---
+![Project Flow Diagram](Kafka_lld.png)
 
 ## 🧩 Technologies Used
 - **React** – Sends events to Spring Boot backend
